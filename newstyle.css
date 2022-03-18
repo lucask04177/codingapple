@@ -1,0 +1,27 @@
+.container {
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.left-menu {
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+
+.content {
+    width: 70%;
+    height: 500px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    background: violet;
+}

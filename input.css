@@ -7,31 +7,76 @@ div {
 }
 
 .contact-box {
-    width: 30%;
+    width: 80%;
     height: 300px;
-    background: pink;
     padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
-input {
-    padding: 10px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.email-form {
+.email-input {
+    width: 80%;
+    height: 50px;
     margin: auto;
-    width: 100%;
 }
 
-.name-form {
-    width: 20%;
+.name-input {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.firstname-input {
+    width: 40%;
+    height: 50px;
+    float: left;
+}
+
+.lastname-input {
+    width: 40%;
+    height: 50px;
+    float: left;
+}
+
+.message-input {
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+
+input[type=email] {
+    font-size: 15px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+}
+
+input[type=text] {
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.checkbox-button {
+    width: 80%;
+    position: relative;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+.checkbox {
+    float: left;
+    position: absolute;
+    left: 70px;
+}
+
+button {
+    background: yellow;
+    padding: 5px;
+    float: right;
 }

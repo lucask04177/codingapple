@@ -11,21 +11,40 @@
 
 <body>
     <div class="contact-box">
-        <h3>contact us</h3>
-        <div class="center">
-            <div class="email-form">
-                <span>Your Email</span>
+        <h3 style="margin-left: 70px;">contact us</h3>
+        <div class="email-input">
+            <form>
+                <span>Your Email</span><br>
+                <input type="email" placeholder="email@example.com">
+            </form>
+        </div>
+        <div class="name-input">
+            <div class="firstname-input">
                 <form>
-                    <input type="email" placeholder="email@example.com">
+                    <span>FirstName</span><br>
+                    <input type="text">
+                </form>
+            </div>
+            <div class="lastname-input">
+                <form>
+                    <span>LastName</span><br>
+                    <input type="text">
                 </form>
             </div>
         </div>
-        <div class="name-form">
-            <span>First Name</span>
+        <div class="message-input">
             <form>
-                <input type="text">
-                <input type="text">
+                <span>Message</span><br>
+                <textarea rows="10" cols="75%"></textarea>
             </form>
+        </div>
+        <div class="checkbox-button">
+            <div class="checkbox">
+                <input type="checkbox"><span>Subscribe</span>
+            </div>
+            <div class="button">
+                <button>SEND</button>
+            </div>
         </div>
     </div>
 </body>

@@ -198,3 +198,7 @@ li:hover {
 .navbar a:hover {
     background-color: red;
 }
+
+.learning-list {
+    text-align: center;
+}
